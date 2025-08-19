@@ -1,2 +1,30 @@
-# Undergraduate-Final-Year-Project-A-Deep-Learning-based-3D-Medical-Spine-Segmentation-System
-This project is a medical image segmentation tool developed for an undergraduate final year project. It features a graphical user interface built with PyQt5, and integrates the VNet deep learning model and the VTK 3D rendering engine.本项目是一个为本科毕业设计开发的医学图像分割工具。系统采用 PyQt5 构建图形化界面，集成了 VNet 深度学习模型和 VTK 三维渲染引擎。
+# 3D 医学脊柱分割系统
+
+本科毕业设计项目 —— 基于深度学习的 **三维医学脊柱分割系统**，支持医学 CT 图像（NIfTI 格式）的加载、分割预测、指标评估及可视化展示。  
+本项目结合 **PyQt5 图形化界面** 与 **VNet 深度学习模型**，实现医学图像分割的完整流程，辅助医生进行诊断和科研。
+
+---
+
+##  功能特点
+- **NIfTI 图像加载**：支持医学 CT 三维数据导入。
+- **模型推理**：基于改进 VNet 模型的脊柱分割。
+- **指标计算**：自动计算 **Dice 系数** 等分割精度指标。
+- **结果保存**：分割结果以 NIfTI 格式导出，便于后续分析。
+- **可视化渲染**：
+  - 使用 **VTK** 渲染 3D 图像
+  - 同时支持原图与预测结果的对比显示
+- **PyQt5 图形化界面**：一键加载、预测、保存，直观易用。
+
+---
+
+##  技术栈
+- **编程语言**：Python 3.10+
+- **深度学习框架**：PyTorch
+- **图形界面**：PyQt5
+- **3D 可视化**：VTK
+- **图像处理**：SimpleITK, Nibabel
+- **其他**：Numpy, Matplotlib
+
+---
+
+## 📂 项目结构
