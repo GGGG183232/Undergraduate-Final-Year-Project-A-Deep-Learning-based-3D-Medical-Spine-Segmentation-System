@@ -1,0 +1,2 @@
+# Undergraduate-Final-Year-Project-A-Deep-Learning-based-3D-Medical-Spine-Segmentation-System
+This project is a medical image segmentation tool developed for an undergraduate final year project. It features a graphical user interface built with PyQt5, and integrates the VNet deep learning model and the VTK 3D rendering engine.本项目是一个为本科毕业设计开发的医学图像分割工具。系统采用 PyQt5 构建图形化界面，集成了 VNet 深度学习模型和 VTK 三维渲染引擎。
